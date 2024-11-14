@@ -1,5 +1,5 @@
 {% set name = "dotnet-script" %}
-{% set version = "1.5.0" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dotnet-script/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 2b22cd28b80bb7adf80888cd3259a4cff1c1e5c68eb78dc36107d6542c9ee6a2
+  sha256: 775984197970156cd6b7397d74ab6c9709c64e4318b4a2658ef280801163f0d6
 
 build:
   noarch: generic
