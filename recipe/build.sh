@@ -6,6 +6,8 @@ mkdir -p ${PREFIX}/bin
 mkdir -p ${PREFIX}/libexec/${PKG_NAME}
 ln -sf ${DOTNET_ROOT}/dotnet ${PREFIX}/bin
 
+export OPENSSL_ENABLE_SHA1_SIGNATURES=1
+
 # Build package with dotnet publish
 rm -rf global.json
 framework_version="$(dotnet --version | sed -e 's/\..*//g').0"
