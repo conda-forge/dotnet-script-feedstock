@@ -1,5 +1,5 @@
 context:
-  version: "1.6.0"
+  version: "2.0.0"
 
 package:
   name: dotnet-script
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dotnet-script/dotnet-script/archive/${{ version }}.tar.gz
-  sha256: 775984197970156cd6b7397d74ab6c9709c64e4318b4a2658ef280801163f0d6
+  sha256: a0112d4baa5e2653f06ef12881d954d613248e83626a6a5eade1abed7337e5da
 
 build:
   number: 0
